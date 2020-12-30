@@ -12,13 +12,19 @@ body {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(238, 213, 213);
+    background-color: #eed5d5;
     color: rgb(117, 70, 70);
+    box-shadow: 2px 4px 5px rgb(117, 70, 70); 
 }
 
 .brand-title {
     font-size: 1.5rem;
     margin: .5rem;
+}
+
+.brand-logo {
+    width: 40px;
+    height: 40px;
 }
 
 .navbar-links {
@@ -43,6 +49,6 @@ body {
 }
 
 .navbar-links li:hover {
-    border-bottom: rgb(117, 70, 70) solid 2px;
+    /* border-bottom: rgb(117, 70, 70) solid 2px; */
     font-weight: bold;
 }
