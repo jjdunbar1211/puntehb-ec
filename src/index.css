@@ -12,3 +12,24 @@ code {
     monospace;
 }
 
+.card-product {
+  display: flex;
+  align-items: center;
+  border: 0.1rem solid rgb(70, 64, 64);
+}
+.stock {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.productCounter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.productCounter p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  align-self: center;
+  text-align: center;
+  margin-top: 0.4rem;
+}

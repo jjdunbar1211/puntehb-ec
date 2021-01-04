@@ -16,7 +16,7 @@ const ItemListContainer = ({greetings}) => {
             <ul>
                 {
                     greetings.map((greeting,index) => 
-                        <li class="item-list" key="index">
+                        <li className="item-list" key={index}>
                             {greeting.language} - {greeting.content}
                         </li>
                     )
