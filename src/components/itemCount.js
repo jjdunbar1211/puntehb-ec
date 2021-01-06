@@ -28,8 +28,8 @@ const ItemCount = props => {
     }
 
     return(
-        <div className="d-flex justify-content-center">
-            <div className="card col-3 card-product mb-2">
+        <div className="d-flex mt-4 pt-4 justify-content-center border border-dark border-3">
+            <div className="card col-3 card-product mb-4">
                 <img src={productImg} className="card-img-top border-bottom border-2" alt={ imgAlt } />
                 <div className="card-body">
                     <h2 className="card-title">{nombreProducto}</h2>

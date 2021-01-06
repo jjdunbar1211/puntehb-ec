@@ -33,3 +33,14 @@ code {
   text-align: center;
   margin-top: 0.4rem;
 }
+
+.badge {
+  color:#754646; 
+  background-color: #eed5d5;
+}
+
+.btn-item {
+  color:#754646; 
+  background-color: #eed5d5;
+}
+
